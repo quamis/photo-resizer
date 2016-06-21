@@ -33,7 +33,7 @@ if (isset($_FILES['file'])) {
 	foreach ($sizes as $sz) {
             $resizedImage = Array();
             $img = new \Imagick($_FILES['file']['tmp_name']);
-            $img->resizeImage($sz['w'], $sz['h'], imagick::FILTER_LANCZOS, 0.5, true);
+            $img->resizeImage($sz['w'], $sz['h'], imagick::FILTER_LANCZOS, 1, true);
             $img->setImageCompressionQuality(95);
             $newName = sprintf('%s-%sx%s.%s', $finfo->getBasename(".{$finfo->getExtension()}"), $sz['w'], $sz['h'], $finfo->getExtension());
             $newPath = sprintf("resized/%s", $newName);
