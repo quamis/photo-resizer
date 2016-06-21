@@ -1,0 +1,98 @@
+/*
+@see http://paletton.com/#uid=3000u0kkTmv5r++gJSqlldell6q
+*/
+body{
+	font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.form {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="file"] {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 1em;
+    border: 1px solid #000;
+    color: #ccc;
+    display: block;
+    margin: 0 0 2em 0;
+    background-color: #fcfcfc;
+}
+input[type="file"]:hover {
+    color: #000;
+    background-color: #f0f0f0;
+}
+
+button[type="submit"] {
+    font-size: 1.5em;
+    background-color: #fcfcfc;
+    border: 3px outset #ccc;
+    border-radius: 0.5em;
+    color: #444;
+    padding: 0.25em 1.5em 0.25em 1.5em;
+}
+button[type="submit"]:hover {
+    color: #000;
+    background-color: #f0f0f0;
+}
+
+button[type="submit"]:hover {
+    color: #000;
+    background-color: #f0f0f0;
+}
+
+
+
+div.images {
+    margin-top: 2em;
+    text-align: center;
+    
+    width: 50%;
+    left: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.images div.thumb {
+    display: inline-block;
+}
+
+div.images div.thumb>a {
+    color: #ccc;
+    border: 3px solid #ccc;
+    background-color: #f8f8f8;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+div.images div.thumb>a:hover {
+    color: #444;
+    border: 3px solid #888;
+    background-color: #f0f0f0;
+}
+div.images div.thumb>a>div.size {
+    font-size: 1.25em;
+}
+div.images div.thumb>a>div.name {
+    font-size: 0.8em;
+}
